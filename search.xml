@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[gitwork]]></title>
+    <url>%2F2019%2F08%2F27%2Fgitwork%2F</url>
+    <content type="text"><![CDATA[GitGit是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。 安装与配置 下载与安装下载地址：https://git-for-windows.github.io 配置个人信息（名字与邮箱）使用Git的第一件事就是设置你的名字和email,这些就是你在提交commit时的签名 12git config --global user.name &quot;Your Name&quot;git config --global user.email &quot;email@example.com&quot; 查看是否配置成功，用命名git config -l git的使用（命令行）创建本地仓库git init：把当前目录变成一个git仓库，并自动创建master分支 以上命令会在当前目录下创建了一个.git 隐藏目录，它就是所谓的Git 仓库。生成仓库后的目录就不是普通的文档目录了，我们将其称为工作区，所以工作区中都包含一个git仓库，而一个git仓库中又包含一个暂存区和一个版本库 工作区与版本库概念 Git有三大区：工作区、暂存区、版本库（如上图 ） 工作区（Working Directory）：电脑中的目录 仓库：工作区有一个隐藏目录.git，这个不算工作区，而是Git仓库。 暂存区（stage/index）：一个临时的存储区域 版本库 （Repository）]]></content>
+      <categories>
+        <category>工具使用</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>分布式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA['gitstudy']]></title>
     <url>%2F2019%2F08%2F27%2Fgitstudy%2F</url>
     <content type="text"></content>
