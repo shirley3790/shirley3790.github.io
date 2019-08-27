@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA['gitstudy']]></title>
+    <url>%2F2019%2F08%2F27%2Fgitstudy%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[这是一篇测试文档]]></title>
+    <url>%2F2019%2F08%2F27%2Fstudy%2F</url>
+    <content type="text"><![CDATA[三级标题​ 文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老， 现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 1234567891011121314151617# Pagination## Set per_page to 0 to disable paginationper_page: 10pagination_dir: page# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: yilia# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: github: https://github.com/shirley3790/shirley3790.github.io.git branch: master 这是单词列表 三大 洒水 阿萨 阿萨 高点 饭]]></content>
+      <tags>
+        <tag>js, ajax</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F08%2F27%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
