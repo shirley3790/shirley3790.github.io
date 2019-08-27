@@ -1312,18 +1312,12 @@ pre .javascript .function {
   display: none;
 }
 .posts-expand {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 @media (max-width: 767px) {
   .posts-expand {
     margin: 0 20px;
   }
-}
-.posts-expand article {
-  background: #fff;
-  padding: 10px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 @media (min-width: 992px) {
   .post-body {
@@ -1405,10 +1399,6 @@ pre .javascript .function {
   display: table;
   table-layout: fixed;
   width: 100%;
-  background: #fff;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .post-gallery-row {
   display: table-row;
@@ -1695,7 +1685,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #240f14;
+  background: #9694ee;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
