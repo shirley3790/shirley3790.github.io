@@ -11,43 +11,4 @@
         <tag>javascript</tag>
       </tags>
   </entry>
-  <entry>
-    <title><![CDATA[gitwork]]></title>
-    <url>%2F2019%2F08%2F27%2Fgitwork%2F</url>
-    <content type="text"><![CDATA[GitGit是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。 安装与配置 下载与安装下载地址：https://git-for-windows.github.io 配置个人信息（名字与邮箱）使用Git的第一件事就是设置你的名字和email,这些就是你在提交commit时的签名 12git config --global user.name &quot;Your Name&quot;git config --global user.email &quot;email@example.com&quot; 查看是否配置成功，用命名git config -l git的使用（命令行）创建本地仓库git init：把当前目录变成一个git仓库，并自动创建master分支 以上命令会在当前目录下创建了一个.git 隐藏目录，它就是所谓的Git 仓库。生成仓库后的目录就不是普通的文档目录了，我们将其称为工作区，所以工作区中都包含一个git仓库，而一个git仓库中又包含一个暂存区和一个版本库 工作区与版本库概念 Git有三大区：工作区、暂存区、版本库（如上图 ） 工作区（Working Directory）：电脑中的目录 仓库：工作区有一个隐藏目录.git，这个不算工作区，而是Git仓库。 暂存区（stage/index）：一个临时的存储区域 版本库 （Repository）]]></content>
-      <categories>
-        <category>工具使用</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>分布式</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA['gitstudy']]></title>
-    <url>%2F2019%2F08%2F27%2Fgitstudy%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[hexo配置方法]]></title>
-    <url>%2F2019%2F08%2F27%2Fok%2F</url>
-    <content type="text"><![CDATA[我是标题你好吗三级标题​ 文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老， 现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 1234567891011121314151617# Pagination## Set per_page to 0 to disable paginationper_page: 10pagination_dir: page# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: yilia# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: github: https://github.com/shirley3790/shirley3790.github.io.git branch: master 这是单词列表 三大 洒水 阿萨 阿萨 高点 饭]]></content>
-      <tags>
-        <tag>js, ajax</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[这是一篇测试文档]]></title>
-    <url>%2F2019%2F08%2F27%2Fstudy%2F</url>
-    <content type="text"><![CDATA[三级标题​ 文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老， 现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 1234567891011121314151617# Pagination## Set per_page to 0 to disable paginationper_page: 10pagination_dir: page# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: yilia# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: github: https://github.com/shirley3790/shirley3790.github.io.git branch: master 这是单词列表 三大 洒水 阿萨 阿萨 高点 饭]]></content>
-      <categories>
-        <category>博客</category>
-        <category>旅游</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-        <tag>ajax</tag>
-        <tag>css</tag>
-      </tags>
-  </entry>
 </search>
