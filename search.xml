@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[javascript超神之旅]]></title>
+    <url>%2F2019%2F08%2F28%2Fjavascript%2F</url>
+    <content type="text"><![CDATA[JavaScript基础语法JavaScript的诞生​ javaScript 诞生于 1995 年。由Netscape(网景公司)的程序员Brendan Eich(布兰登)与Sun公司联手开发一门脚本语言, 最初名字叫做Mocha，1995年9月改为LiveScript。12月，Netscape公司与Sun公司（Java语言的发明者）达成协议，后者允许将这种语言叫做JavaScript。这样一来，Netscape公司可以借助Java语言的声势。 ​ 1996年3月， Netscape公司的浏览器Navigator2.0浏览器正式内置了JavaScript脚本语言. 此后其他主流浏览器逐渐开始支持JavaScript. js版本 JavaScript这种语言的基本语法结构是由ECMAScript来标准化的, 所以我们说的JavaScript版本一般指的是ECMAScript版本. 1997年7月，ECMAScript 1.0发布。 1998年6月，ECMAScript 2.0版发布。 1999年12月，ECMAScript 3.0版发布。 2007年10月，ECMAScript 4.0版草案想要提交ECMA组织, 但由于4.0版的目标过于激进, 改动太大, 并且微软,谷歌等大公司极力反对；一直到2008年7月ECMA开会决定，中止ECMAScript 4.0的开发（即废除了这个版本） 2009年12月，ECMAScript 5.0版正式发布 2011年6月，ECMAscript 5.1版发布 2015年6月，ECMAScript 6正式发布，并且更名为“ECMAScript 2015”。]]></content>
+      <categories>
+        <category>前端知识</category>
+      </categories>
+      <tags>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[gitwork]]></title>
     <url>%2F2019%2F08%2F27%2Fgitwork%2F</url>
     <content type="text"><![CDATA[GitGit是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。 安装与配置 下载与安装下载地址：https://git-for-windows.github.io 配置个人信息（名字与邮箱）使用Git的第一件事就是设置你的名字和email,这些就是你在提交commit时的签名 12git config --global user.name &quot;Your Name&quot;git config --global user.email &quot;email@example.com&quot; 查看是否配置成功，用命名git config -l git的使用（命令行）创建本地仓库git init：把当前目录变成一个git仓库，并自动创建master分支 以上命令会在当前目录下创建了一个.git 隐藏目录，它就是所谓的Git 仓库。生成仓库后的目录就不是普通的文档目录了，我们将其称为工作区，所以工作区中都包含一个git仓库，而一个git仓库中又包含一个暂存区和一个版本库 工作区与版本库概念 Git有三大区：工作区、暂存区、版本库（如上图 ） 工作区（Working Directory）：电脑中的目录 仓库：工作区有一个隐藏目录.git，这个不算工作区，而是Git仓库。 暂存区（stage/index）：一个临时的存储区域 版本库 （Repository）]]></content>
@@ -18,6 +29,14 @@
     <content type="text"></content>
   </entry>
   <entry>
+    <title><![CDATA[hexo配置方法]]></title>
+    <url>%2F2019%2F08%2F27%2Fok%2F</url>
+    <content type="text"><![CDATA[我是标题你好吗三级标题​ 文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老， 现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 1234567891011121314151617# Pagination## Set per_page to 0 to disable paginationper_page: 10pagination_dir: page# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: yilia# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: github: https://github.com/shirley3790/shirley3790.github.io.git branch: master 这是单词列表 三大 洒水 阿萨 阿萨 高点 饭]]></content>
+      <tags>
+        <tag>js, ajax</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[这是一篇测试文档]]></title>
     <url>%2F2019%2F08%2F27%2Fstudy%2F</url>
     <content type="text"><![CDATA[三级标题​ 文主要是介绍自己搭建个人博客这个过程，遇到的难点和如何解决的，也算是一份小小的笔记吧！在搭建我的个人博客时，遇到了许多问题，主要是在网上查找的hexo的next主题优化比较老， 现在的next主题改动还是比较大的，对于像我一样的初学者还是有一定的困难的，我是在2019年5月搭建完成的，起初是觉得这个挺有意思的，就是想要试一试，玩一玩。现在把它当做一个记录心得体会，一个分享学习经验的平台吧！ 1234567891011121314151617# Pagination## Set per_page to 0 to disable paginationper_page: 10pagination_dir: page# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: yilia# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: github: https://github.com/shirley3790/shirley3790.github.io.git branch: master 这是单词列表 三大 洒水 阿萨 阿萨 高点 饭]]></content>
@@ -30,10 +49,5 @@
         <tag>ajax</tag>
         <tag>css</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F08%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
