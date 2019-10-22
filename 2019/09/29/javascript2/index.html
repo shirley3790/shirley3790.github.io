@@ -59,11 +59,11 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="javascript超神之旅day2-程序结构">
 <meta property="og:url" content="http://meilinhu.cc/2019/09/29/javascript2/index.html">
-<meta property="og:site_name" content="美林湖畔">
+<meta property="og:site_name" content="王木木">
 <meta property="og:description" content="程序的三大流程控制  我们的计算机在执行一个程序的时候，最基本的方式是一条语句接一条语句的执行。但不可能所有的问题都能用顺序执行方式就能解决，总会有一些跳转。采用结构化的程序设计，可以大大提高开发程序的速度、提高程序的可读性、程序运行的速度和效率    顺序：从上朝下执行的代码就是顺序 分支(选择)：根据不同的情况，执行对应代码 循环：重复做一件事情">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://raw.githubusercontent.com/shirley3790/myblogs_imgs/master/1569772141480.png">
-<meta property="og:updated_time" content="2019-09-29T16:04:50.055Z">
+<meta property="og:updated_time" content="2019-10-22T15:22:19.325Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="javascript超神之旅day2-程序结构">
 <meta name="twitter:description" content="程序的三大流程控制  我们的计算机在执行一个程序的时候，最基本的方式是一条语句接一条语句的执行。但不可能所有的问题都能用顺序执行方式就能解决，总会有一些跳转。采用结构化的程序设计，可以大大提高开发程序的速度、提高程序的可读性、程序运行的速度和效率    顺序：从上朝下执行的代码就是顺序 分支(选择)：根据不同的情况，执行对应代码 循环：重复做一件事情">
@@ -82,7 +82,7 @@
   };
 </script>
 
-  <title>javascript超神之旅day2-程序结构 | 美林湖畔</title>
+  <title>javascript超神之旅day2-程序结构 | 王木木</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -130,7 +130,7 @@
     <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">美林湖畔</span>
+        <span class="site-title">王木木</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -261,13 +261,13 @@
     <link itemprop="mainEntityOfPage" href="http://meilinhu.cc/2019/09/29/javascript2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Shirley Lin">
-      <meta itemprop="description" content="coding in my life">
+      <meta itemprop="name" content="木木">
+      <meta itemprop="description" content="专注前端开发,记录成长和收获">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="美林湖畔">
+      <meta itemprop="name" content="王木木">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">javascript超神之旅day2-程序结构
@@ -297,7 +297,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-09-30 00:04:50" itemprop="dateModified" datetime="2019-09-30T00:04:50+08:00">2019-09-30</time>
+                <time title="修改时间：2019-10-22 23:22:19" itemprop="dateModified" datetime="2019-10-22T23:22:19+08:00">2019-10-22</time>
               </span>
             
           
@@ -401,6 +401,12 @@
 <p>do while循环特点：先执行后判断，所以至少会执行一次代码</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/变量初始化</span><br><span class="line">do &#123;</span><br><span class="line">    //不管条件是否成立，先执行一次这里的代码，再进行条件判断，如果条件依然成立，则再次执行这里的代码，依此类推</span><br><span class="line">    //所以这里一般会伴随着条件的更新</span><br><span class="line">&#125; while(条件)</span><br></pre></td></tr></table></figure>
 
+<h5 id="程序流程-循环-for循环"><a href="#程序流程-循环-for循环" class="headerlink" title="程序流程-循环-for循环"></a>程序流程-循环-for循环</h5><p>结构：注意两个分号都必须要写</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for(变量初始化; 条件判断; 变量更新)&#123;</span><br><span class="line">    //循环条件成立，则执行这里的代码</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>举例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">//for循环(推荐写法)</span><br><span class="line">    for(var j = 0; j &lt; 10; j++) &#123;</span><br><span class="line">        document.write(&apos;今天心情非常好，星期四了哦！&apos; + j + &apos;&lt;/br&gt;&apos;);//0-9</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(&apos;j:&apos; + j);//j 10</span><br><span class="line"></span><br><span class="line">    //for的第二种写法</span><br><span class="line">    var k;</span><br><span class="line">    for(k = 0; k &lt; 10; k++) &#123;</span><br><span class="line">        document.write(&apos;今天心情非常好，星期四了哦！&apos; + k + &apos;&lt;/br&gt;&apos;);//0-9</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(&apos;k:&apos; + j);//j 10</span><br><span class="line"></span><br><span class="line">    //for的第三种写法</span><br><span class="line">    var m = 0;</span><br><span class="line">    for(; m &lt; 10; m++) &#123;</span><br><span class="line">        document.write(&apos;今天心情非常好，星期四了哦！&apos; + m + &apos;&lt;/br&gt;&apos;);//0-9</span><br><span class="line">    &#125;</span><br><span class="line">    console.log(&apos;m:&apos; + m);//j 10</span><br></pre></td></tr></table></figure>
+
 <h5 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h5><hr>
 <blockquote>
 <p>1.输入月份，显示当月的天数</p>
@@ -464,6 +470,10 @@
 
             <div class="post-nav-prev post-nav-item">
               
+                <a href="/2019/10/22/javascript3/" rel="prev" title="javascript超神之旅day3-程序结构">
+                  javascript超神之旅day3-程序结构 <i class="fa fa-chevron-right"></i>
+                </a>
+              
             </div>
           </div>
         
@@ -511,7 +521,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#程序的三大流程控制"><span class="nav-number">1.</span> <span class="nav-text">程序的三大流程控制</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-顺序（代码从上到下执行）"><span class="nav-number">2.</span> <span class="nav-text">程序流程-顺序（代码从上到下执行）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-if语句"><span class="nav-number">3.</span> <span class="nav-text">程序流程-分支-if语句</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：判断一个数是偶数还是奇数，并输出判断结果；"><span class="nav-number">3.1.</span> <span class="nav-text">案例：判断一个数是偶数还是奇数，并输出判断结果；</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：if语句的使用"><span class="nav-number">3.2.</span> <span class="nav-text">案例：if语句的使用</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-三元运算符（三目运算符）"><span class="nav-number">4.</span> <span class="nav-text">程序流程-分支-三元运算符（三目运算符）</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：求两个数的最大数"><span class="nav-number">4.1.</span> <span class="nav-text">案例：求两个数的最大数</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-switch语句"><span class="nav-number">5.</span> <span class="nav-text">程序流程-分支-switch语句</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：今天星期几？"><span class="nav-number">5.1.</span> <span class="nav-text">案例：今天星期几？</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：用switch进行成绩判断"><span class="nav-number">5.2.</span> <span class="nav-text">案例：用switch进行成绩判断</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-循环-while循环"><span class="nav-number">6.</span> <span class="nav-text">程序流程-循环-while循环</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：为什么要循环，隔行变色的实现"><span class="nav-number">6.1.</span> <span class="nav-text">案例：为什么要循环，隔行变色的实现</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：和尚挑水"><span class="nav-number">6.2.</span> <span class="nav-text">案例：和尚挑水</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-循环-do-while循环"><span class="nav-number">7.</span> <span class="nav-text">程序流程-循环-do while循环</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#作业"><span class="nav-number">8.</span> <span class="nav-text">作业</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#程序的三大流程控制"><span class="nav-number">1.</span> <span class="nav-text">程序的三大流程控制</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-顺序（代码从上到下执行）"><span class="nav-number">2.</span> <span class="nav-text">程序流程-顺序（代码从上到下执行）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-if语句"><span class="nav-number">3.</span> <span class="nav-text">程序流程-分支-if语句</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：判断一个数是偶数还是奇数，并输出判断结果；"><span class="nav-number">3.1.</span> <span class="nav-text">案例：判断一个数是偶数还是奇数，并输出判断结果；</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：if语句的使用"><span class="nav-number">3.2.</span> <span class="nav-text">案例：if语句的使用</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-三元运算符（三目运算符）"><span class="nav-number">4.</span> <span class="nav-text">程序流程-分支-三元运算符（三目运算符）</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：求两个数的最大数"><span class="nav-number">4.1.</span> <span class="nav-text">案例：求两个数的最大数</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-分支-switch语句"><span class="nav-number">5.</span> <span class="nav-text">程序流程-分支-switch语句</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：今天星期几？"><span class="nav-number">5.1.</span> <span class="nav-text">案例：今天星期几？</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：用switch进行成绩判断"><span class="nav-number">5.2.</span> <span class="nav-text">案例：用switch进行成绩判断</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-循环-while循环"><span class="nav-number">6.</span> <span class="nav-text">程序流程-循环-while循环</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：为什么要循环，隔行变色的实现"><span class="nav-number">6.1.</span> <span class="nav-text">案例：为什么要循环，隔行变色的实现</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#案例：和尚挑水"><span class="nav-number">6.2.</span> <span class="nav-text">案例：和尚挑水</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-循环-do-while循环"><span class="nav-number">7.</span> <span class="nav-text">程序流程-循环-do while循环</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#程序流程-循环-for循环"><span class="nav-number">8.</span> <span class="nav-text">程序流程-循环-for循环</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#作业"><span class="nav-number">9.</span> <span class="nav-text">作业</span></a></li></ol></div>
         
       </div>
       <!--/noindex-->
@@ -520,16 +530,16 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image"
       src="/images/avatar.jpg"
-      alt="Shirley Lin">
-  <p class="site-author-name" itemprop="name">Shirley Lin</p>
-  <div class="site-description" itemprop="description">coding in my life</div>
+      alt="木木">
+  <p class="site-author-name" itemprop="name">木木</p>
+  <div class="site-description" itemprop="description">专注前端开发,记录成长和收获</div>
 </div>
   <nav class="site-state motion-element">
       <div class="site-state-item site-state-posts">
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
