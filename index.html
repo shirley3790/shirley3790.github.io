@@ -283,7 +283,7 @@
                 
               
 
-              <time title="创建时间：2019-10-22 23:18:33 / 修改时间：23:42:19" itemprop="dateCreated datePublished" datetime="2019-10-22T23:18:33+08:00">2019-10-22</time>
+              <time title="创建时间：2019-10-22 23:18:33 / 修改时间：23:48:46" itemprop="dateCreated datePublished" datetime="2019-10-22T23:18:33+08:00">2019-10-22</time>
             </span>
           
             
@@ -318,44 +318,16 @@
           <h5 id="程序的三大流程控制2"><a href="#程序的三大流程控制2" class="headerlink" title="程序的三大流程控制2"></a>程序的三大流程控制2</h5><hr>
 <blockquote>
 <p>回顾：昨天，我们已经掌握了程序的几种流程控制，分别是顺序、分支、循环；今天我们继续加强对循环的理解，多写案例，巩固知识点。</p>
-<p>循环分类：while、do while、for（循环三要素缺一不可）</p>
-</blockquote>
-<h5 id="循环跳转"><a href="#循环跳转" class="headerlink" title="循环跳转"></a>循环跳转</h5><hr>
-<ul>
-<li><p>break：//退出当前整个循环</p>
-<ul>
-<li>循环体中位于break后的语句不会被执行</li>
-<li>在多层循环嵌套中，一个break语句只向外跳一层</li>
-</ul>
-</li>
-<li><p>continue：//跳过本次循环，继续下一次循环</p>
-<ul>
-<li>只能在循环语句中使用，</li>
-<li>跳过本次循环（即跳过循环体中下面尚未执行的代码），接着执行下次循环。</li>
-</ul>
-</li>
-<li><p>label：给循环代码添加标识 </p>
-</li>
-</ul>
-<blockquote>
-<p>break和continue后如果带标识，则跳到标识所在循环 </p>
-</blockquote>
-<p><img src="https://raw.githubusercontent.com/shirley3790/myblogs_imgs/master/1571758301474.png" alt="1571758301474"></p>
-<blockquote>
-<p>PS： - 固定次数的循环，用for循环，不固定次数用while循环 - <strong>死循环</strong> 死循环就是重复执行代码, 不会停止. 死循环会造成程序卡死甚至崩溃等问题, 所以我们写代码要避免死循环 </p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line">        break : 退出当前整个循环</span><br><span class="line">        continue :跳出这次循环，进入下一次循环</span><br><span class="line">        label ：给循环起名字</span><br><span class="line">    */</span><br><span class="line"></span><br><span class="line">    for(var i = 0; i &lt; 10; i++) &#123;//i=0 i&lt;n总共就n次循环;i=1 i&lt;=n,总共n次循环</span><br><span class="line">        if(i == 5) &#123;</span><br><span class="line">            // break;//退出当前整个循环 0-4</span><br><span class="line">            continue;//?0-4 跳出这次循环，进入下一次循环</span><br><span class="line">        &#125;</span><br><span class="line">        document.write(&apos;打印次数：&apos; + i + &apos;&lt;/br&gt;&apos;);//?</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<h6 id="案例：打印2月份除2和12号中的天数"><a href="#案例：打印2月份除2和12号中的天数" class="headerlink" title="案例：打印2月份除2和12号中的天数"></a>案例：打印2月份除2和12号中的天数</h6><h5 id="循环的嵌套"><a href="#循环的嵌套" class="headerlink" title="循环的嵌套"></a>循环的嵌套</h5><hr>
-<p>循环的嵌套就是循环里面还有循环，初学者写嵌套的时候可以用代入法理解程序</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//循环的嵌套:for里面有for</span><br><span class="line">    </span><br><span class="line">    for(var i = 0; i &lt; 3; i++) &#123;</span><br><span class="line">        for(var j = 0; j &lt; 4; j ++) &#123;</span><br><span class="line">            document.write(&apos;打印：&apos; + i + j + &quot;&lt;/br&gt;&quot;);//?</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<p>两层循环遇到break循环次数会受影响吗？会打印什么？</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">//内循环遇到了break</span><br><span class="line">    for(var i = 0; i &lt; 3; i++) &#123;</span><br><span class="line">        for(var j = 0; j &lt; 4; j ++) &#123;</span><br><span class="line">            if(j == 2) &#123;</span><br><span class="line">                break;//跳出当前循环,推到上一级循环</span><br><span class="line">            &#125;</span><br><span class="line">            document.write(&apos;打印：&apos; + i + j + &quot;&lt;/br&gt;&quot;);//?</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-<h6 id="案例：打印100以内的奇数"><a href="#案例：打印100以内的奇数" class="headerlink" title="案例：打印100以内的奇数"></a>案例：打印100以内的奇数</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">for(var i = 1; i &lt;= 100; i++) &#123;</span><br><span class="line">        //该循环是100次循环，能够生成1-100之间的数字</span><br><span class="line">        if(i % 2) &#123;</span><br><span class="line">            //余数是1就是奇数</span><br><span class="line">            document.write(&apos;奇数是：&apos; + i + &apos;&lt;/br&gt;&apos;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-
-
+<p>循环分类：while、do while、for（循环三要素缺一不可）</p></blockquote>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/10/22/javascript3/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
